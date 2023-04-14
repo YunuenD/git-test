@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="media/css/app.min.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="media/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="media/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="media/img/favicon/safari-pinned-tab.svg" color="#3534a7">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#3534a7">
+
+    <title>Prueba</title>
+</head>
+
+<body>
+    <section class="main main-image">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand go2form">Trip<span>Guard</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-4 mx-lg-5">
+                                <a class="nav-link active" href="index.html">Buy Travel Insurance</a>
+                            </li>
+                            <li class="nav-item mx-4 mx-lg-5">
+                                <a class="nav-link" href="#">Safety</a>
+                            </li>
+                            <li class="nav-item mx-4 mx-lg-5">
+                                <a class="nav-link" href="#">Claims</a>
+                            </li>
+                            <li class="nav-item mx-4 mx-lg-5">
+                                <a class="nav-link" href="#">Help Center</a>
+                            </li>
+                        </ul>
+                        <form class="button ms-lg-5 ps-lg-5">
+                            <button class="btn btn-azul go2form">Sign up <img class="arrow"
+                                    src="media/img/arrow.png"></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row mt-lg-5">
+                        <div class="col-lg-10">
+                            <h1 class="mt-5 mt-lg-5 pt-lg-5">Travel insurance for Aussies</h1>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="my-4">Enter trip details into our quote form anget quotes from top rated
+                                        insures at lowest price. Compare plans, buy online with instant confirmation.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-lg-5 pt-lg-5">
+                    <form class="shadow-lg p-3 mb-5 bg-body rounded">
+                        <p class="titulo mt-3 mb-5">Compare and Buy Online</p>
+                        <div class="row mt-3">
+                            <div class="col-12 col-lg-6">
+                                <label for="number">How many travelers?</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>Select number</option>
+                                    <!--option value="1">1</!--option-->
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="number">Total cost of your trip</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>Trip per person</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-lg-4">
+                            <div class="col-12 col-lg-6">
+                                <label for="country">Your trip dates</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>Departure - Return</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="number">Current age of travelers</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>mm/dd/yyyy</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-lg-4">
+                            <div class="col-12 col-lg-6">
+                                <label for="country">Permanent residence</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>United States</option>
+                                    <option value="1">México</option>
+                                    <option value="2">Canadá</option>
+                                    <option value="3">España</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <label for="country">Your citizenship</label>
+                                <select class="form-select" aria-label="Defaut select example">
+                                    <option selected>Germany</option>
+                                    <option value="1">México</option>
+                                    <option value="2">USA</option>
+                                    <option value="3">España</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="d-grid gap-2 col-lg-4 mx-auto">
+                                <button type="submit" class="btn-form mt-3">Get Free Quote</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid py-lg-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="py-0 py-sm-4 m-0 text-center">4 Easy Steps an Get Insured</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row m-auto">
+                    <div class="col-lg-3 col-md-3 m-auto text-center">
+                        <img class="steps go2form m-auto mt-5" src="media/img/trip.png" alt="trip details">
+                        <div class="atributo mt-lg-4">Enter your trip details into quote form</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 m-auto text-center">
+                        <img class="steps go2form m-auto mt-5" src="media/img/quotes.png" alt="quotes">
+                        <div class="atributo mt-lg-4">Get quotes from top rated companies</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 m-auto text-center">
+                        <img class="steps go2form m-auto mt-5" src="media/img/compare.png" alt="plans">
+                        <div class="atributo mt-lg-4">Compare plans, prices and benefits</div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 m-auto text-center">
+                        <img class="steps go2form m-auto mt-5" src="media/img/cover.png" alt="covered instantly">
+                        <div class="atributo mt-lg-4">Buy online and get covered instantly</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="py-sm-4 mt-lg-5 mt-5 text-center">Why use Tripguard</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-2 pt-5 d-none d-sm-none d-md-block">
+            <div class="container">
+                <div class="row" id="collapse-group">
+                    <div class="col-12 col-md-5 col-lg-6 d-grid g-auto g-md-0">
+                        <button class="btn btn-reasons btn-collapse collapsed mb-3" type="button"
+                            data-bs-toggle="collapse" href="#collapseone" aria-expanded="false"
+                            aria-controls="collapseone">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/prices.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">Guaranteed Best Prices</h5>
+                                        <p class="btn-description text-start">A travel insurance policy can protect from
+                                            variety of
+                                            unexpected circumstances</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="btn btn-reasons btn-collapse collapsed mb-3" type="button"
+                            data-bs-toggle="collapse" href="#collapsetwo" aria-expanded="false"
+                            aria-controls="collapsetwo">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/fast.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">Fast & Easy to Buy Online</h5>
+                                        <p class="btn-description text-start">Travel insurance is important for
+                                            travelers who needs a
+                                            solution to protect</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button class="btn btn-reasons btn-collapse collapsed" type="button" data-bs-toggle="collapse"
+                            href="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/secure.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">100% Secure Checkout</h5>
+                                        <p class="btn-description text-start">Know where to return if something wrong,
+                                            with 24/7 emergency assistance</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-5 col-md-7 g-auto accordion-group bg-circulo">
+                        <div class="collapse show" id="collapseone" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-md-5">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapsetwo" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-md-5">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapsethree" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-md-5">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-2 pt-5 d-block d-sm-block d-md-none">
+            <div class="container">
+                <div class="row" id="collapse-group">
+                    <div class="col-12 col-md-5 col-lg-6 d-grid g-auto g-md-0">
+                        <button class="btn btn-reasons btn-collapse collapsed mb-3" type="button"
+                            data-bs-toggle="collapse" href="#collapseone" aria-expanded="false"
+                            aria-controls="collapseone">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/prices.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">Guaranteed Best Prices</h5>
+                                        <p class="btn-description text-start">A travel insurance policy can protect from
+                                            variety of
+                                            unexpected circumstances</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="collapse" id="collapseone" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-md-5 mb-3">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-reasons btn-collapse collapsed mb-3" type="button"
+                            data-bs-toggle="collapse" href="#collapsetwo" aria-expanded="false"
+                            aria-controls="collapsetwo">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/fast.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">Fast & Easy to Buy Online</h5>
+                                        <p class="btn-description text-start">Travel insurance is important for
+                                            travelers who needs a
+                                            solution to protect</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="collapse" id="collapsetwo" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-lg-5 mb-3">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-reasons btn-collapse collapsed mb-3" type="button"
+                            data-bs-toggle="collapse" href="#collapsethree" role="button" aria-expanded="false"
+                            aria-controls="collapsethree">
+                            <div class="row g-0 mt-2">
+                                <div class="col-md-4">
+                                    <img src="media/img/secure.png" class="reasons" alt="prices">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="body">
+                                        <h5 class="title text-start">100% Secure Checkout</h5>
+                                        <p class="btn-description text-start">Know where to return if something wrong,
+                                            with 24/7 emergency assistance</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="collapse" id="collapsethree" data-bs-parent="#collapse-group">
+                            <div class="card-reasons ms-lg-5 ps-lg-5 mb-3">
+                                <p class="travel text-start"><span>Travelguide helps compare plans from wordl´s leading
+                                        travel insurance providers.</span></p>
+                                <p class="needs text-start">Whether you´re planning on going solo or with a group of
+                                    friends or
+                                    family, TravelInsurance.com can help you find an appropiate domestic or
+                                    international
+                                    travel insurance policy that meets you needs. You can compare all of your trip
+                                    insurance
+                                    options, procure converage online and travel worry-free.</p>
+                                <button class="btn-circular"> Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid mt-md-5 mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-md-5 col-lg-6 me-lg-5 mb-4 mt-md-5 pb-4">
+                        <h3 class="titulo2 mb-md-4">Compare and Buy <br>Travel Insurance With Online</h3>
+                        <p class="descripcion my-lg-4">Toad walked around his teams development area for the rest of the
+                            morning. Every time saw a member of his team.</p>
+                        <div class="v-line col-lg-10 px-5">
+                            <i class="coment"> Bug reports from users started to roll in toad´s team created tickets for
+                                each bug that crashed the app or rendered it.</i>
+                        </div>
+                        <p class="descripcion my-4">It can be hard to know where to begin when searching for a travel
+                            insurance policy. An ideal policy offers sufficient coverage at a reasobale price.</p>
+                        <div class="d-grid gap-2 col-lg-4">
+                            <button class="btn-form mt-3 go2form">See more tracking</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-5 col-md-7 col-lg-5 img-cel mt-sm-4">
+                        <img class="img-fluid celular go2form" loading="lazy" src="media/img/cel.webp">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid py-lg-4 my-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="py-0 py-sm-4 m-0 text-center">Great stories Our Policy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-5 col-md-5 col-lg-6 me-lg-5 mb-2">
+                        <div class="card mb-3">
+                            <img src="media/img/img-01.jpg" class="card-img-top go2form" loading="lazy">
+                            <div class="card-body">
+                                <small>Travel Tips</small>
+                                <h5 class="card-title">How to Save Money During Holiday Travels</h5>
+                                <p class="card-text">The holidays are a perfect time for traveling to the homes of
+                                    family and friends in order to catch up with each other and enjoy the festivities of
+                                    the season. Some people even like to go on vacations with close friends or family
+                                    members to make the holidays more unique and fun... </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-5">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 mb-4">
+                                <div class="card">
+                                    <img src="media/img/img-02.jpg" class="card-img-top go2form" loading="lazy">
+                                    <div class="card-body">
+                                        <small>Travel Tips</small>
+                                        <h5 class="card-title">Top Destinations for Fall Foliage in the United States
+                                        </h5>
+                                        <p class="card-text">It´s surprise that the United States remains top
+                                            destination for
+                                            viewing fall foliage. Full of tree-lined streets, roads, and parks, the
+                                            country
+                                            provides perfect backdrop for beautiful photography. People from all over
+                                            the globe
+                                            travel to North America in an atter to view.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5">
+                                <aside class="bd-sidebar">
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        <div class="news">
+                                            <small>News</small>
+                                            <p class="mb-1">Africa travel tips for ultimate adventure</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        <div class="news">
+                                            <small>News</small>
+                                            <p class="mb-1">Best car games to play with children</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        <div class="news">
+                                            <small>News</small>
+                                            <p class="mb-1">How to select inclusive honeymoon</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                        <div class="news">
+                                            <small>News</small>
+                                            <p class="mb-1">What should trip to enhance safety</p>
+                                        </div>
+                                    </a>
+                                </aside>
+                                <div class="d-grid gap-2 mt-2">
+                                    <button class="btn btn-sidebar go2form">More Stories<img class="blue-arrow ms-3"
+                                            src="media/img/blue-arrow.svg"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid mt-5 py-5 main main-image2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-6 col-md-6 mb-4 mb-sm-3">
+                                <h5 class="tema">Company</h5>
+                                <ul class="list-footer">
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">About Us</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Our Plan</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Payment Policy</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Travel Guard</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-6 mb-4 mb-sm-3">
+                                <h5 class="tema">Integrations</h5>
+                                <ul class="list-footer">
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Agoda</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Booking</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Trivago</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Planyo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-lg-5">
+                            <div class="col-6 col-md-6 mb-4 mb-sm-3">
+                                <h5 class="tema">Trip Nomads</h5>
+                                <ul class="list-footer">
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Travel Insurance</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Get a quote</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Travel safety</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Explore</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-6 mb-4 mb-sm-3">
+                                <h5 class="tema">Need Help?</h5>
+                                <ul class="list-footer">
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Help & Emergencias</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Make a claim</a></li>
+                                    <li class=""><a href="#" class="list-group-item list-group-item-action"
+                                            aria-current="true">Help center</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 d-flex justify-content-center align-items-center">
+                        <form class="footer">
+                            <legend>Request a quote today</legend>
+                            <div class="row g-3">
+                                <div class="col">
+                                    <input type="text" class="form-control rounded-pill" placeholder="Email"
+                                        aria-label="Email">
+                                </div>
+                                <div class="col">
+                                    <button class="btn-form" type="submit">Get full quote</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
